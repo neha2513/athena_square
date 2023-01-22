@@ -1,0 +1,42 @@
+section {
+  display: flex;
+  min-height: 100vh;
+}
+
+.left,
+.right {
+  flex: 1;
+}
+
+.divs {
+  padding: 40px 0;
+}
+
+.videoPlayer {
+  border-radius: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left .inner {
+  height: 100vh;
+  display: block;
+}
+
+.right .inner {
+  padding: 100px 100px;
+  font-size: 22px;
+}
+
+.left .inner.sticky {
+  position: sticky;
+  top: 0;
+}
+
+.left .inner.sticky .bg {
+  padding: 120px 0;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
